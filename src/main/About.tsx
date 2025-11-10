@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="about" className="bg-slate-950 px-4 py-16">
       <div className="max-w-7xl w-full mx-auto grid lg:grid-cols-2 gap-10 items-start">
-        <div className="space-y-6">
+        <div className="space-y-6" data-aos="fade-down">
           <div className="inline-flex items-center gap-2 rounded-lg border border-slate-700/70 bg-slate-900/60 px-4 py-2.5 text-xs font-semibold text-slate-200">
             <span className="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_0_4px] shadow-emerald-400/30 animate-pulse"></span>
             <span>About Me</span>
@@ -62,7 +62,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-6" data-aos="fade-up">
           <div className="rounded-lg border border-slate-700 bg-slate-900/80 p-6 shadow-[0_18px_60px_rgba(15,23,42,0.85)]">
             <div className="grid grid-cols-3 gap-4 mb-6 text-center">
               <div className="space-y-1">

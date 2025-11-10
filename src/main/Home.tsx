@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex items-center justify-center px-4 py-10 mt-15 bg-slate-950 text-slate-50 antialiased" id="home">
       <div className="max-w-7xl w-full mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-        <section className="space-y-8">
+        <section className="space-y-8" data-aos="fade-down" data-aos-duration="1000">
           <div className="inline-flex items-center gap-2 rounded-lg border border-slate-700/70 bg-slate-900/60 px-4 py-2.5 text-xs font-semibold text-slate-200">
             <span className="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_0_4px] shadow-emerald-400/30 animate-pulse"></span>
             <span>Available for Internship & Projects</span>
@@ -113,7 +113,7 @@ export default function Home() {
         </section>
 
 
-        <section className="relative">
+        <section className="relative" data-aos="fade-up" data-aos-duration="1000">
           <div className="absolute inset-0 -z-10 blur-3xl opacity-60 bg-[radial-gradient(circle_at_top,#22c55e_0,transparent_55%),radial-gradient(circle_at_bottom,#0ea5e9_0,transparent_55%)]">
           </div>
 

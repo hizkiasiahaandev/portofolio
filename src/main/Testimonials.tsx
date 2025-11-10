@@ -6,7 +6,7 @@ export default function Testimonials() {
     return (
         <section id="testimonials" className="bg-slate-950 px-4 py-16">
             <div className="max-w-7xl mx-auto space-y-10">
-                <div className="flex flex-wrap items-center justify-between gap-4">
+                <div className="flex flex-wrap items-center justify-between gap-4" data-aos="fade-down">
                     <div className="space-y-3 max-w-xl">
                         <div className="inline-flex items-center gap-2 rounded-lg border border-slate-700/70 bg-slate-900/60 px-4 py-2.5 text-xs font-semibold text-slate-200 antialiased">
                             <span className="inline-flex h-2.5 w-2.5 rounded-full bg-cyan-400 shadow-[0_0_0_4px] shadow-cyan-400/30 animate-pulse"></span>
@@ -33,7 +33,7 @@ export default function Testimonials() {
                     </div>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-3 gap-6" data-aos="fade-up">
                     <article className="relative rounded-lg border border-slate-700 bg-slate-900/80 p-5 flex flex-col gap-4 hover:border-slate-600 transition-colors">
                         <div className="flex items-center justify-between gap-3">
                             <div className="flex items-center gap-3">
@@ -129,7 +129,7 @@ export default function Testimonials() {
                     </article>
                 </div>
 
-                <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-slate-300">
+                <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-slate-300" data-aos="fade-right">
                     <div className="flex items-center gap-2">
                         <span className="inline-flex h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
                         <span>Siap menambah testimoni baru dari project nyata berikutnya.</span>

@@ -23,7 +23,7 @@ export default function Projects() {
     return (
         <section id="projects" className="bg-slate-950 px-4 py-16">
             <div className="max-w-7xl mx-auto space-y-10">
-                <div className="flex flex-wrap items-center justify-between gap-4">
+                <div className="flex flex-wrap items-center justify-between gap-4" data-aos="fade-down">
                     <div className="space-y-3 max-w-xl">
                         <div className="inline-flex items-center gap-2 rounded-lg border border-slate-700/70 bg-slate-900/70 px-4 py-2 text-xs font-semibold text-slate-200 antialiased">
                             <span className="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_0_4px] shadow-emerald-400/30 animate-pulse" />
@@ -48,7 +48,7 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up">
                     <article className="group rounded-lg border border-slate-700 bg-slate-900/80 p-5 flex flex-col gap-4 hover:border-emerald-400/80 hover:shadow-[0_18px_60px_rgba(16,185,129,0.25)] transition-all">
                         <div className="space-y-2">
                             <div className="inline-flex items-center gap-2 text-[0.7rem] text-emerald-300">
@@ -215,7 +215,7 @@ export default function Projects() {
                     </article>
                 </div>
 
-                <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-slate-300">
+                <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-slate-300" data-aos="fade-right">
                     <div className="flex items-center gap-2">
                         <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400" />
                         <span>Project lain bisa ditunjukkan saat diskusi lebih lanjut (repo private / eksperimen).</span>
